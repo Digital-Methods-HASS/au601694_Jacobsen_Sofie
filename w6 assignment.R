@@ -43,7 +43,6 @@ for (j in gap_data$country){
   }
 }
 
-#ifelse(grepl("B*", j), print( "Country starts with B"), print( "Country doesn't start with B"))
 for (i in gap_data$lifeExp) {
    if (i < 50) {
     print("Life expectancy is below 50")
